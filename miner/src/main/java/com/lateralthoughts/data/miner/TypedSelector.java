@@ -5,9 +5,7 @@ import org.jsoup.nodes.Element;
 
 public abstract class TypedSelector {
 
-    private String cssQuery;
-
-    TypedSelector() { }
+    private final String cssQuery;
 
     public abstract String select(Element element);
 
